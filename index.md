@@ -1,5 +1,9 @@
 ---
-title: "Welcome to my blog"
+title: "Bienvenido a nuestra página"
 ---
 
-I'm glad you are here. I plan to talk about ...
+# Bienvenido...
+Esta es una prueba
+![yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+>¡Hola mundo!
