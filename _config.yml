@@ -15,9 +15,9 @@ description              : "An amazing website."
 #  Write an awesome description for your new site here. You can edit this
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "git-terbug/*repo_name" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+#url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+#baseurl                  : # the subpath of your site, e.g. "/blog"
+#repository               : "git-terbug/*repo_name" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 #head_scripts             :
  #                         - https://code.jquery.com/jquery-3.6.0.min.js
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -150,12 +150,12 @@ footer:
 
 # Reading Files
 include:
-  - .htaccess
+#  - .htaccess
   - _pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
-  - vendor
+#  - vendor
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
@@ -166,12 +166,13 @@ exclude:
   - Capfile
   - CHANGELOG
   - config
-  - Gemfile
+#  - Gemfile
+#  - Gemfile.lock
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
   - log
-  - node_modules
+#  - node_modules
   - package.json
   - package-lock.json
   - Rakefile
@@ -225,15 +226,16 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+#whitelist:
+ # - jekyll-paginate
+  #- jekyll-sitemap
+  #- jekyll-gist
+  #- jekyll-feed
+  #- jekyll-include-cache
 
 
 # Archives
