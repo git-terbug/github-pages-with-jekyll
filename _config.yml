@@ -11,6 +11,10 @@ title_separator          : "-"
 subtitle                 : "test site" # site tagline that appears below site title in masthead
 name                     : "Git-terbug"
 description              : "An amazing website."
+#description: > # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "git-terbug/*repo_name" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -283,12 +287,7 @@ defaults:
       share: true
       related: true
       show_date: true
-
-#email: your-email@domain.com
-#description: > # this means to ignore newlines until "baseurl:"
-#  Write an awesome description for your new site here. You can edit this
-#  line in _config.yml. It will appear in your document head meta (for
-#  Google search results) and in your feed.xml site description.
+      
 # social links
 #twitter_username: your-twitter-handle # DO NOT include the @ character, or else the build will fail!
 #github_username:  your-github-handle # DO NOT include the @ character, or else the build will fail!
