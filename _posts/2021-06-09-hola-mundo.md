@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Tutorial"
 date: 2021-06-09
 ---
