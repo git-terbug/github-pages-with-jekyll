@@ -1,4 +1,3 @@
-repo_name: &var "github-pages-with-jekyll"
 #theme: jekyll-theme-cayman
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 #minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -24,11 +23,11 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-date_format:             : "%d-%m-%Y"
+#date_format:             : "%d-%m-%Y"
 words_per_minute         : 200
-comments:
+#comments:
   #provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
-  provider               : "staticman_v2"
+  #provider               : "staticman_v2"
   #disqus:
    # shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   #discourse:
@@ -86,11 +85,11 @@ social:
   links: # An array of links to social media profiles
 
 # Analytics
-analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+#analytics:
+  #provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+ # google:
+ #   tracking_id          :
+#    anonymize_ip         : # true, false (default)
 
 
 # Site Author
@@ -147,38 +146,38 @@ footer:
 include:
 #  - .htaccess
   - _pages
-exclude:
+#exclude:
 #  - "*.sublime-project"
 #  - "*.sublime-workspace"
 #  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
+  #- .asset-cache
+  #- .bundle
+  #- .jekyll-assets-cache
+  #- .sass-cache
+  #- assets/js/plugins
+  #- assets/js/_main.js
+  #- assets/js/vendor
+  #- Capfile
+  #- CHANGELOG
+  #- config
 #  - Gemfile
 #  - Gemfile.lock
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
+  #- Gruntfile.js
+  #- gulpfile.js
+  #- LICENSE
+  #- log
 #  - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
+  #- package.json
+  #- package-lock.json
+  #- Rakefile
+  #- README
+  #- tmp
+  #- /docs # ignore Minimal Mistakes /docs
+ # - /test # ignore Minimal Mistakes /test
+#keep_files:
+  #- .git
+ # - .svn
+#encoding: "utf-8"
 #markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
