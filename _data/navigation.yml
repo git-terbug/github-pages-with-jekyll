@@ -11,3 +11,9 @@ main:
   - title: "Mapa de sitio"
     url: /sitemap/
 
+docs:
+  - title: "Documentos"
+    children:
+      - title: "Capítulo 1"
+        url: /docs/cap1/
+

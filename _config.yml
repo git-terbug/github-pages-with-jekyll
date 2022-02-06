@@ -6,8 +6,8 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale                   : "es-MX"
 title                    : "Hola Mundo"
-#title_separator          : "-"
-#subtitle                 : "test site" # site tagline that appears below site title in masthead
+title_separator          : "-"
+subtitle                 : "test site" # site tagline that appears below site title in masthead
 name                     : "Git-terbug"
 description              : "An amazing website."
 #description: > # this means to ignore newlines until "baseurl:"
@@ -146,6 +146,7 @@ footer:
 include:
 #  - .htaccess
   - _pages
+  
 #exclude:
 #  - "*.sublime-project"
 #  - "*.sublime-workspace"
@@ -268,7 +269,11 @@ tag_archive:
   #ignore:
    # envs: development
 
-
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+    
 # Defaults
 defaults:
   # _posts
@@ -290,6 +295,18 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share:  true
+  
+  
+
+
 
 # social links
 #twitter_username: your-twitter-handle # DO NOT include the @ character, or else the build will fail!
