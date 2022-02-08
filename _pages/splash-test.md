@@ -5,7 +5,7 @@ permalink: /
 #author_profile: true
 header:
   # image: assets/images/header1.jpg
-  overlay_image: assets/images/header1.jpg
+  overlay_image: /assets/images/header1.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   # overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
   # caption: "Photo by <a href="https://unsplash.com/@marekpiwnicki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marek Piwnicki</a> on <a href="https://unsplash.com/t/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -13,13 +13,13 @@ header:
     - label: "Más info:"
     url: "https://unsplash.com"
 intro:
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: "Esto es una prueba"
 feature_row:
-  - image_path: assets/images/marek-piwnicki-6JX47S9SMRs-unsplash.jpg
+  - image_path: /assets/images/marek-piwnicki-6JX47S9SMRs-unsplash.jpg
     alt: "placeholder image 1"
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: assets/images/nikhil-l_g6a902OH8-unsplash.jpg
+  - image_path: /assets/images/nikhil-l_g6a902OH8-unsplash.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
     title: "Placeholder 2"
