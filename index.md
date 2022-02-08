@@ -1,5 +1,3 @@
-
-
 ---
 title: "Bienvenido"
 layout: splash
@@ -30,3 +28,13 @@ feature_row:
     btn_label: "Leer más"
     btn_class: "btn--primary"
 ---
+
+# Bienvenido...
+Esta es una prueba
+![yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+{% include video id="212731897" provider="vimeo" %}
