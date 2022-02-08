@@ -1,7 +1,7 @@
 ---
 title: "Bienvenido"
 layout: splash
-permalink: /
+permalink: /splash
 #author_profile: true
 header:
   # image: assets/images/header1.jpg
