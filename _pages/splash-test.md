@@ -6,9 +6,9 @@ permalink: /splash
 header:
   # image: assets/images/header1.jpg
   overlay_image: /assets/images/header1.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  # overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
-  # caption: "Photo by <a href="https://unsplash.com/@marekpiwnicki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marek Piwnicki</a> on <a href="https://unsplash.com/t/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  # overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
+  caption: "Photo by <a href="https://unsplash.com/@marekpiwnicki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marek Piwnicki</a> on <a href="https://unsplash.com/t/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   # actions:
   # - label: "Más info:"
   # url: "https://unsplash.com"
@@ -27,11 +27,15 @@ header:
    # url: "#test-link"
    # btn_label: "Leer más"
    # btn_class: "btn--primary"
+prueba_var: "Prueba variable" 
 ---
 
-# Bienvenido...
+# Hola...
 Lorem ipsum
 ![yaktocat](https://octodex.github.com/images/yaktocat.png)
 
+<h1> {{ "Hello World" | downcase }} <\h1>
+
+{{ page.prueba_var }}
 
 {% include video id="212731897" provider="vimeo" %}
