@@ -13,7 +13,7 @@ header:
     - label: "Más info:"
       url: "https://unsplash.com"
   intro:
-    - excerpt: "Esto es una prueba"
+    - excerpt: 'Esto es una prueba'
 # feature_row:
  #   - image_path: /assets/images/marek-piwnicki-6JX47S9SMRs-unsplash.jpg
   #  alt: "placeholder image 1"
