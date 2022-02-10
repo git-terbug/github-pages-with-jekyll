@@ -12,21 +12,21 @@ header:
   actions:
     - label: "Más info:"
       url: "https://unsplash.com"
-  intro:
-    - excerpt: 'Esto es una prueba'
-# feature_row:
- #   - image_path: /assets/images/marek-piwnicki-6JX47S9SMRs-unsplash.jpg
-  #  alt: "placeholder image 1"
-   # title: "Placeholder 1"
-   # excerpt: "This is some sample content that goes here with **Markdown** formatting."
-   # - image_path: /assets/images/nikhil-l_g6a902OH8-unsplash.jpg
-   # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-   # alt: "placeholder image 2"
-   # title: "Placeholder 2"
-   # excerpt: "This is some sample content that goes here with **Markdown** formatting."
-   # url: "#test-link"
-   # btn_label: "Leer más"
-   # btn_class: "btn--primary"
+intro:
+  - excerpt: 'Esto es una prueba'
+feature_row:
+  - image_path: /assets/images/marek-piwnicki-6JX47S9SMRs-unsplash.jpg
+    alt: "placeholder image 1"
+    title: "Placeholder 1"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /assets/images/nikhil-l_g6a902OH8-unsplash.jpg
+    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    alt: "placeholder image 2"
+    title: "Placeholder 2"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Leer más"
+    btn_class: "btn--primary"
 prueba_var: "Prueba variable" 
 ---
 
@@ -41,4 +41,14 @@ Lorem ipsum
 
 {% include feature_row id="intro" type="center" %}
 
+{% include feature_row %}
+
 {% include video id="212731897" provider="vimeo" %}
+
+{% assign image_files = site.static_files | where: "image", true %}
+
+{% for myimage in image_files %}
+
+  {{myimage.path}}
+
+{% endfor %}
