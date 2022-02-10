@@ -64,6 +64,8 @@ Lorem ipsum
 
 {% include feature_row id="feature_row2" type="left" %}
 
+{% include feature_row id="feature_row3" type="right" %}
+
 {{ site.time | date_to_long_string}}
 
 {% highlight ruby %}
@@ -72,8 +74,6 @@ def foo
 end
 {% endhighlight %}
 
-{% include feature_row id="feature_row3" type="right" %}
-
 {% assign image_files = site.static_files | where: "image", true %}
 
 {% for myimage in image_files %}
@@ -81,3 +81,5 @@ end
   {{myimage.path}}
 
 {% endfor %}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_post | default: "Recent" }}</h3>
