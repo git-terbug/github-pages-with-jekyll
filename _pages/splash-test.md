@@ -27,6 +27,15 @@ feature_row:
     url: "#test-link"
     btn_label: "Leer más"
     btn_class: "btn--primary"
+  - image_path: /assets/images/foo-bar-identity-th.jpg
+    alt: "placeholder image 3"
+    title: "Unreal VR"
+    excerpt: "Algunos proyectos recientes"
+feature_row2:
+  - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
+    alt: "unsplash"
+    title: "Hello there"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
 prueba_var: "Prueba variable" 
 ---
 
@@ -44,6 +53,8 @@ Lorem ipsum
 {% include feature_row %}
 
 {% include video id="212731897" provider="vimeo" %}
+
+[% include feature_row id="feature_row2" type="left" %]
 
 {% assign image_files = site.static_files | where: "image", true %}
 
