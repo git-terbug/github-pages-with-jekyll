@@ -46,7 +46,7 @@ prueba_var: "Prueba variable"
 Lorem ipsum
 ![yaktocat](https://octodex.github.com/images/yaktocat.png)
 
-{{ page.prueba_var }}
+{{ page.prueba_var }} {{ site.time | date_to_string }}
 
 {% include feature_row id="intro" type="center" %}
 
@@ -54,7 +54,9 @@ Lorem ipsum
 
 {% include video id="212731897" provider="vimeo" %}
 
-[% include feature_row id="feature_row2" type="left" %]
+{% include feature_row id="feature_row2" type="left" %}
+
+{{ site.time | date_to_long_string}}
 
 {% assign image_files = site.static_files | where: "image", true %}
 
