@@ -36,6 +36,14 @@ feature_row2:
     alt: "unsplash"
     title: "Hello there"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+feature_row3:
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "prueba row"
+    title: "Idea"
+    excerpt: "Más enlaces a ninguna parte"
+    url: "/about"
+    btn_label: "Acerca de"
+    btn_class: "btn--primary"   
 prueba_var: "Prueba variable" 
 ---
 
@@ -57,6 +65,14 @@ Lorem ipsum
 {% include feature_row id="feature_row2" type="left" %}
 
 {{ site.time | date_to_long_string}}
+
+{% highlight ruby %}
+def foo
+  put 'foo'
+end
+{% endhighlight %}
+
+{% include feature_row id="feature_row3" type="right" %}
 
 {% assign image_files = site.static_files | where: "image", true %}
 
