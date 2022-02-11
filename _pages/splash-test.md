@@ -56,6 +56,8 @@ Lorem ipsum
 
 {{ page.prueba_var }} {{ site.time | date_to_string }}
 
+[Jekyll!]({% post_url 2022-02-11-bienvenido %})
+
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
@@ -68,7 +70,7 @@ Lorem ipsum
 
 {{ site.time | date_to_long_string}}
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 def foo
   put 'foo'
 end
@@ -81,6 +83,8 @@ end
   {{myimage.path}}
 
 {% endfor %}
+
+[Enlace a portafolio]({% link _portfolio/catalogo.md %})
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_post | default: "Recent" }}</h3>
 
